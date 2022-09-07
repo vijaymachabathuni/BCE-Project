@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.plain_text {
+    text-decoration: none;
+    color: black;
+}
+
+.title_row {
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+}
+
+.title_name a:hover, .title_item a:hover {
+    color: #383838;
+}
+
+.navbar_style {
+    background-color: black;
+    padding-left: 2.5rem;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url(data%3Aimage/svg%2Bxml%2C%253csvg%20xmlns%3D%27http%3A //www.w3.org%E2%80%A6dth%3D%272%27%20d%3D%27M4%207h22M4%2015h22M4%2023h22%27/%253e%253c/svg%253e);
+}
+
+.navbar-toggler {
+    color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-image: var(--bs-navbar-toggler-icon-bg) !important;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem !important;
+}
+
+.subnavbar {
+    list-style: none;
+    display: none;
+    z-index: 1000;
+    max-width: 100%;
+    padding-left: 0;
+    position: absolute;
+    text-decoration: none;
+    padding: 0;
+}
+
+.subnav-link {
+    display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-item:hover .subnavbar {
+    display: block;
+    background-color: black;
+}
+
+.nav-item:hover .nav-link {
+    color: grey;
+    transition: color .15s ease-in-out;
+}
+
+.nav-item:hover .subnav-link {
+    color: white;
+    transition: color .15s ease-in-out;
+}
+
+.subnav-item:hover {
+    background-color: rgb(196, 196, 196);
+    transition: background-color .15s ease-in-out;
+}
+
+.subnav-item:hover .subnav-link {
+    color: black;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.daily_updates {
+    padding: 2rem 3rem;
+}
+
+.daily_updates div table {
+    width: 250px;
+}
+
+.table_title {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    border: 0.5px solid black;
+}
+
+.table_title th {
+    padding: 0.5rem;
+}
+
+.table_c1 {
+    background-color: #bcbcbc;
+    padding: 0.5rem;
+}
+
+.table_c2 {
+    background-color: #cccccc;
+    padding: 0.5rem;
+}
+
+.monthly_calendar {
+    padding: 3rem 3rem;
+}
+
+.cal_r1 {
+    height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cal_r2 td {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: #9e9e9e;
+}
+
+.cal_r3 td {
+    width: 12rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    vertical-align: baseline;
+    padding: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cal_r3 td:hover {
+    background-color: antiquewhite;
+    transition: background-color .15s ease-in-out;
+}
+
+.cal_r3 td a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading-class {
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.term_class div p {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+}
+
+.term_table {
+    font-size: 1rem;
+    width: 700px;
+}
+
+.term_table th, td {
+    padding: 0.5rem;
+}
